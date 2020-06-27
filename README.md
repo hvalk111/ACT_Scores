@@ -12,15 +12,15 @@
 ## Executive Summary
 
 ### Contents of final_code.ipynb:
-- [2017 Data Import & Cleaning](#../code/final_code.ipynb/Data-Import-and-Cleaning)
-- [2018 Data Import and Cleaning](#2018-Data-Import-and-Cleaning)
-- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-- [Data Visualization](#Visualize-the-data)
-- [2019 Data Import & Cleaning](#2019-Data-Import-and-Cleaning)
-- [Dataset Aggregation](#Dataset-Aggregation)
-- [Underperforming States, Trending Positively](#Underperforming-States-Trending-Positively)
-- [Choropleth Plots](#Choropleth-Plots)
-- [Conclusions and Recommendations](#Conclusions-and-Recommendations)
+- 2017 Data Import & Cleaning
+- [2018 Data Import and Cleaning]
+- [Exploratory Data Analysis]
+- [Data Visualization]
+- [2019 Data Import & Cleaning]
+- [Dataset Aggregation]
+- [Underperforming States, Trending Positively]
+- [Choropleth Plots]
+- [Conclusions and Recommendations]
 
 |Feature|Type|Datasets|Description|
 |---|---|---|---|
