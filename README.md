@@ -7,10 +7,12 @@
 * Which of these states are on a positive path forward?
 * What explains this positive trend? Are there policy ideas that could be exported to states in similar positions?
 
+> Three datasets were examined for the purposes of answering these questions, ACT test results and participation rates 2017, ACT test results and participation rates 2018, and ACT test results and participation rates 2019. Each dataset contained an entry for each US State and Washington D.C. describing ACT averages across that state. After the data was loaded, cleaned, and properly reformmatted, an aggregate dataframe was created. Two grand average series were created, three year mean of ACT composite scores and the three year mean of ACT participation rates. Below you will find an executive summary of the analysis steps in the final_code.ipynb file and a data dictionary detailing more thoughoughly the features in question.
+
 ## Executive Summary
 
 ### Contents of final_code.ipynb:
-- [2017 Data Import & Cleaning](#Data-Import-and-Cleaning)
+- [2017 Data Import & Cleaning](#./code/final_code.ipynb/Data-Import-and-Cleaning)
 - [2018 Data Import and Cleaning](#2018-Data-Import-and-Cleaning)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Data Visualization](#Visualize-the-data)
@@ -36,17 +38,27 @@
 |composite_mean|float|Aggregate of ACT 2017, ACT 2018, ACT 2019|mean composite score of 17, 18, 19 mean composite scores in range 0-36| 
 |participation_mean|float|Aggregate of ACT 2017, ACT 2018, ACT 2019|mean participation rate of 17, 18, 19 participation rates|
 
+## Methods
+
+> To better understand underperforming states that trending positively. I separated states that require students take the ACT from states that do not. States that require students take the ACT perform significantly worse on average, likely due to the much larger set of students taking the test. Thus to avoid an apples and oranges comparison, these states were excluded from analysis. Next a median split was performed to separate the remaining 31 states into high and low performing. 'Positively trending' was defining as improving composite ACT score for 3 consecutive years. 
+
 ## Conclusions and Recommendations
 
+> Of the low performing group, only one state met that criteria to be considered positively trending, Florida. This may be in part due to legislation passed in 2017, but is more likely due to the fact that Florida's ACT participation rate decreased over the same time period. The inverse relationship between participation rate and score was seen across tests and years.
+
+#### Key Takeaways:
 * Participations rates strongly influence ACT scores
 * Few states are trending positively.
 * Florida is the only underperforming state which does not require the ACT and has 3 consecutive years of ACT score improvement
 <br />
 <br />
-* Consider variables other than standardized test scores
-    * Are test scores the best reflection of a positive learning experience? Perhaps looks at graduation rates instead
 
-* Determine if the relationship between participation rates and test scores is statistically significant
+#### Future Directions:
+* Consider variables other than standardized test scores
+    * Are test scores the best reflection of a positive learning experience? Perhaps looks at graduation rates, which have been shown to have a stronger relationship with positive life outcomes.
+
+* Determine if the relationship between participation rates and test scores is statistically significant. Determine if the relationship between participation rate trends and test score trends is statisically significant.
+* Expand analysis to more years of test data.
 
 ### Slide Deck
-[Click Here](#../slides/Standardized_Testing_Trends.pptx)
+[Click Here](#./slides/Standardized_Testing_Trends.pptx)
