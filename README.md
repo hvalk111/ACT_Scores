@@ -7,12 +7,12 @@
 * Which of these states are on a positive path forward?
 * What explains this positive trend? Are there policy ideas that could be exported to states in similar positions?
 
-> Three datasets were examined for the purposes of answering these questions, ACT test results and participation rates 2017, ACT test results and participation rates 2018, and ACT test results and participation rates 2019. Each dataset contained an entry for each US State and Washington D.C. describing ACT averages across that state. After the data was loaded, cleaned, and properly reformmatted, an aggregate dataframe was created. Two grand average series were created, three year mean of ACT composite scores and the three year mean of ACT participation rates. Below you will find an executive summary of the analysis steps in the final_code.ipynb file and a data dictionary detailing more thoughoughly the features in question.
+> Three datasets were examined for the purposes of answering these questions, ACT test results and participation rates 2017, ACT test results and participation rates 2018, and ACT test results and participation rates 2019. Each dataset contained an entry for each US State and Washington D.C. describing ACT averages across that state. After the data was loaded, cleaned, and properly reformmatted, an aggregate dataframe was created. Two grand average series were created, three year mean of ACT composite scores and the three year mean of ACT participation rates. Below you will find an executive summary of the analysis steps in the final_code.ipynb file and a data dictionary detailing more thoroughly the features in question.
 
 ## Executive Summary
 
 ### Contents of final_code.ipynb:
-- [2017 Data Import & Cleaning](#./code/final_code.ipynb/Data-Import-and-Cleaning)
+- [2017 Data Import & Cleaning](#../code/final_code.ipynb/Data-Import-and-Cleaning)
 - [2018 Data Import and Cleaning](#2018-Data-Import-and-Cleaning)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Data Visualization](#Visualize-the-data)
