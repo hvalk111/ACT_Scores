@@ -40,7 +40,7 @@
 
 ## Methods
 
-> To better understand underperforming states that trending positively. I separated states that require students take the ACT from states that do not. States that require students take the ACT perform significantly worse on average, likely due to the much larger set of students taking the test. Thus to avoid an apples and oranges comparison, these states were excluded from analysis. Next a median split was performed to separate the remaining 31 states into high and low performing. 'Positively trending' was defining as improving composite ACT score for 3 consecutive years. Choropleth plots were used to visualize these relationships. Choropleth shapefiles within ./data/usa_shapefiles from [here](#https://www.arcgis.com/home/item.html?id=f7f805eb65eb4ab787a0a3e1116ca7e5) 
+> To better understand underperforming states that trending positively. I separated states that require students take the ACT from states that do not. States that require students take the ACT perform significantly worse on average, likely due to the much larger set of students taking the test. Thus to avoid an apples and oranges comparison, these states were excluded from analysis. Next a median split was performed to separate the remaining 31 states into high and low performing. 'Positively trending' was defining as improving composite ACT score for 3 consecutive years. Choropleth plots were used to visualize these relationships. Choropleth shapefiles within ./data/usa_shapefiles from https://www.arcgis.com/home/item.html?id=f7f805eb65eb4ab787a0a3e1116ca7e5)
 
 ## Conclusions and Recommendations
 
