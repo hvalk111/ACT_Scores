@@ -11,7 +11,7 @@
 
 ## Executive Summary
 
-### Contents of [final_code.ipynb](final_code.ipynb):
+### Contents of [final_code.ipynb](code/final_code.ipynb):
 - 2017 Data Import & Cleaning
 - 2018 Data Import and Cleaning
 - Exploratory Data Analysis
